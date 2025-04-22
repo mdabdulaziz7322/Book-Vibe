@@ -15,8 +15,8 @@ const Book = ({book}) => {
   </figure>
   <div className="card-body ">
   <div className='mb-2' >
-  <button className="btn btn-xs btn-soft btn-success  mr-5 rounded-full p-3 ">{book.tags[0]}</button>
-  <button className="btn btn-xs btn-soft btn-success rounded-full p-3">{book.tags[1]}</button>
+  <button className="btn btn-xs btn-soft btn-success text-green-600 text-base  mr-5 rounded-full p-3 ">{book.tags[0]}</button>
+  <button className="btn btn-xs btn-soft btn-success text-green-600 text-base rounded-full p-3">{book.tags[1]}</button>
   </div>
     <h2 className="card-title text-2xl">{book.bookName}</h2>
     <p className='text-lg mb-1 mt-2'>By:  {book.author}</p>
