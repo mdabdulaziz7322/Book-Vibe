@@ -5,6 +5,8 @@ import {
 import Root from '../pages/Root/Root';
 import ErrorPage from '../pages/ErrorPage/ErrorPage';
 import Home from '../pages/Home/Home';
+import About from '../pages/About/About';
+import BookDetails from '../pages/BookDetailes/BookDetails';
 
 export const router = createBrowserRouter([
     {
@@ -17,6 +19,14 @@ export const router = createBrowserRouter([
             path:"/",
             Component:Home,
 
+        },
+        {
+            path:'/about',
+            Component:About
+        },
+        {
+            path:'bookDetails/:bookId',
+            Component:BookDetails
         }
       ]
     },
