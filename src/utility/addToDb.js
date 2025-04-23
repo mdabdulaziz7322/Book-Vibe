@@ -25,3 +25,4 @@ else{
 }
 
 export {addToStoredDb};
+export {getStoredBook};
